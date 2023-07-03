@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: catalog-sync-example
+  name: catalog-sync-example-with-api
   annotations:
     github.com/project-slug: mbocek-vw/catalog-sync-example
 spec:
@@ -9,12 +9,12 @@ spec:
   lifecycle: unknown
   owner: vwac
   providesApis: 
-    - bocekmaapi
+    - bocekma-provided-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: bocekmaapi
+  name: bocekma-provided-api
 spec:
   owner: guests
   type: openapi

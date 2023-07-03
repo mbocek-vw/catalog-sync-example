@@ -20,4 +20,4 @@ spec:
   type: openapi
   lifecycle: experimental
   definition: |
-      $text: swagger.json
+      $text: ./swagger.json

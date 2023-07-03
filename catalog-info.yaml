@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: System
+kind: component
 metadata:
   name: catalog-sync-example
   annotations:
@@ -8,6 +8,8 @@ spec:
   type: other
   lifecycle: unknown
   owner: vwac
+  providesApi: 
+    - bocekmaapi
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API

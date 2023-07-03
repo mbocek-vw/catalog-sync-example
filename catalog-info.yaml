@@ -1,19 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Sample app
-  description: |
-    This app can be imported into our Backstage catalog.
-  links:
-    - title: Website
-      url: http://backstage.io
-    - title: Documentation
-      url: https://backstage.io/docs
-    - title: Storybook
-      url: https://backstage.io/storybook
-    - title: Discord Chat
-      url: https://discord.com/invite/EBHEGzX
+  name: catalog-sync-example
+  annotations:
+    github.com/project-slug: mbocek-vw/catalog-sync-example
 spec:
-  type: library
+  type: other
+  lifecycle: unknown
   owner: vwac
-  lifecycle: experimental

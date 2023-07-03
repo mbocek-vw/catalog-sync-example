@@ -8,7 +8,7 @@ spec:
   type: other
   lifecycle: unknown
   owner: vwac
-  providesApi: 
+  providesApis: 
     - bocekmaapi
 ---
 apiVersion: backstage.io/v1alpha1

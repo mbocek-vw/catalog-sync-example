@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: dxp-auth
+  title: Registration service API
+  description: APIs related to Vehicle Registration, creation and management of vehicles, their claims, and assignment of users to vehicles. Require permissions in Active Directory.
+spec:
+  type: openapi
+  lifecycle: experimental 
+  owner: acbu
+  system: registration-service
+  definition: 
+    $text: https://core-d-vwacv-c0e-eastus2.vwcloud.org:9912/swagger/2020-07-01/swagger.yaml

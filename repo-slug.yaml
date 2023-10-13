@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-with-github-slug
+  title: CARIAD Backstage with Github Slug
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: mbocek-vw/catalog-sync-example
+spec:
+  owner: backstage-owners
+  type: service
+  providesApis:
+    - backstage-auth
+    - backstage-techdocs-uploader
+  lifecycle: experimental
+---

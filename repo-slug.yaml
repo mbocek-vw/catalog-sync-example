@@ -14,3 +14,15 @@ spec:
     - backstage-techdocs-uploader
   lifecycle: experimental
 ---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: no-api-system
+  title: No API System
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  owner: backstage-owners
+  type: service
+  lifecycle: experimental
+---

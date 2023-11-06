@@ -1,0 +1,13 @@
+--- # dashes separate the API from other entities in the same file
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: petstore-no-servers
+  title: Petstore no servers
+  description: Petstore with no servers in the API spec
+spec:
+  owner: frobs-data-team
+  type: openapi
+  lifecycle: production
+  definition:
+    $text: ./petstore-no-servers.json 

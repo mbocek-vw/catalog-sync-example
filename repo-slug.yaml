@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: example-with-github-slug
   title: CARIAD Backstage with Github Slug
+  tags:
+    - cloud
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: mbocek-vw/catalog-sync-example
